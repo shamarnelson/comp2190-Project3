@@ -10,5 +10,45 @@
 	<link rel="stylesheet" type="text/css" href="Styles/p2.css" />
   </head>
 
-  <body>
-      
+  
+    <body>
+		<div id="signUpBoxes">
+			<h1>User Creation Form</h1>
+            <form method="post" name="form" id="form" action="/620108459/scripts/submitdata.php" onsubmit="return Validate(form);">
+                <div>
+                    <label for="cID">Clerk ID:</label>
+                    <input type="text" name="cID" id="cID" /><br /><br />
+                    
+                    <label for="constID">Constituency ID:</label>
+                    <input type="text" name="constID" id="constID" /><br /><br />
+                    
+                    <label for="pollDivID">Polling Division ID:</label>
+					<input type="text" name="pollDivID" id="pollDivID" /><br /><br />
+  
+                    <label for="pollStn">Polling Station:</label>
+					<input type="text" name="pollStn" id="pollStn" /><br /><br />
+                
+                    <label for="votesforCand1">Votes for Candidate 1:</label>
+					<input type="text" name="votesforCand1" id="votesforCand1" /><br /><br />
+                
+                    <label for="votesforCand2">Votes for Candidate 2:</label>
+					<input type="text" name="votesforCand2" id="votesforCand2" /><br /><br />
+                
+                    <label for="rejectedBal">Rejected Ballots:</label>
+					<input type="text" name="rejectedBal" id="rejectedBal" /><br /><br />
+                
+                    <label for="totalNumVote">Total Number of Votes</label>
+					<input type="text" name="totalNumVote" id="totalNumVote" /><br /><br />
+                
+                    <input type="hidden" name="hiddenField" 
+                    id="hiddenField" value="e11869d1186d0791" /><br /><br />
+  
+  
+                    <button type="submit" name="submit_form"
+                    id="submit_form">Submit</button>
+
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
