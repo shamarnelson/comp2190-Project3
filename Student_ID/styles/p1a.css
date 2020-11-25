@@ -1,0 +1,23 @@
+table{
+    width: 80%;
+    border:2px solid #d0d0ff;
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    padding: 8px;
+}
+
+tbody{
+    border:2px solid #d0d0ff;
+}
+
+tbody:nth-child(even){
+    background-color:  #eeeff2;
+}
+tbody:nth-child(odd){
+    background-color:  #dfe1e7;
+}
+
+
+
