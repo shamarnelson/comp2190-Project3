@@ -64,6 +64,18 @@ function Validate(form)
             return true;
         }
 
+        function equalVotes()
+        {
+            var total=0;
+            var sum=0
+            if (console.log(total.equals(sum))){
+                return true;
+            }
+            return false;
+
+
+        }
+
 
         function validCheck()
         {
