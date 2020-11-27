@@ -66,9 +66,12 @@ function Validate(form)
 
         function equalVotes()
         {
-            var total=0;
-            var sum=0
-            if (console.log(total.equals(sum))){
+            var array= [[votesforCand1], [votesforCand2], [rejectedBal]];
+
+            var sumVotes= array.map(arr => arr.reduce((sum, item) => sum += item, 0));
+
+
+            if (console.log(totalNumVote.equals(sumVotes))){
                 return true;
             }
             return false;
