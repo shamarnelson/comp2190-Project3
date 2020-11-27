@@ -9,4 +9,5 @@ if( isset( $_POST['submit_form'] ) )
     $votesforCand2 = $_POST['votesforCand2'];
     $rejectedBal = $_POST['rejectedBal'];
     $totalNumVote = $_POST['totalNumVote'];
-    $hidden = $_POST['hidden'];
+    $hiddenField = $_POST['hiddenField'];
+}

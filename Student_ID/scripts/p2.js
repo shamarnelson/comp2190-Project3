@@ -37,11 +37,33 @@ function Validate(form)
         }
 
 
-        function equalVotes()
+        function isInteger()
         {
-            if ((formInput[""]))
+            if (pollStn.isInteger()){
+                return false;
+
+            }
+            else{
+                window.alert("Your are required to use letters");
+                return true;
+            }
         }
-        
+
+        function isAlpha()
+        {
+            var isAlpha = document.getElementById("isAlpha").value;
+
+
+            
+            if(/^[a-zA-Z0-9]/.test(isAlpha))
+            {
+                    alert("Alphanumeric Characters Only");
+                    return false;
+                
+            }
+            return true;
+        }
+
 
         function validCheck()
         {
@@ -56,5 +78,4 @@ function Validate(form)
             }
 
         }
-
-}
+    }
